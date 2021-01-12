@@ -50,7 +50,7 @@ public class FolderPopWindow extends PopupWindow {
         this.context = context;
         this.config = PictureSelectionConfig.getInstance();
         this.chooseMode = config.chooseMode;
-        this.window = LayoutInflater.from(context).inflate(R.layout.picture_window_folder, null);
+        this.window = LayoutInflater.from(context).inflate(R.layout.picture_window_folder1, null);
         this.setContentView(window);
         this.setWidth(RelativeLayout.LayoutParams.MATCH_PARENT);
         this.setHeight(RelativeLayout.LayoutParams.WRAP_CONTENT);

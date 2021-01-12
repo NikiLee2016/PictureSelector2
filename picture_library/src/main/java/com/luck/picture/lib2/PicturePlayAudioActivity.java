@@ -36,7 +36,7 @@ public class PicturePlayAudioActivity extends PictureBaseActivity implements Vie
 
     @Override
     public int getResourceId() {
-        return R.layout.picture_play_audio;
+        return R.layout.picture_play_audio1;
     }
 
     @Override

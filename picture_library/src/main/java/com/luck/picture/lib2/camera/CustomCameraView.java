@@ -109,7 +109,7 @@ public class CustomCameraView extends RelativeLayout {
     public void initView() {
         setWillNotDraw(false);
         setBackgroundColor(ContextCompat.getColor(getContext(), R.color.picture_color_black));
-        View view = LayoutInflater.from(getContext()).inflate(R.layout.picture_camera_view, this);
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.picture_camera_view1, this);
         mCameraView = view.findViewById(R.id.cameraView);
         mCameraView.enableTorch(true);
         mTextureView = view.findViewById(R.id.video_play_preview);

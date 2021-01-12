@@ -139,7 +139,7 @@ public class PictureSimpleFragmentAdapter extends PagerAdapter {
         View contentView = mCacheView.get(position);
         if (contentView == null) {
             contentView = LayoutInflater.from(container.getContext())
-                    .inflate(R.layout.picture_image_preview, container, false);
+                    .inflate(R.layout.picture_image_preview1, container, false);
             mCacheView.put(position, contentView);
         }
         PhotoView imageView = contentView.findViewById(R.id.preview_image);

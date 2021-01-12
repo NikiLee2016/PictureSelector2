@@ -5,10 +5,10 @@
     android:background="@color/picture_color_black"
     android:fitsSystemWindows="true">
 
-    <include layout="@layout/picture_title_bar" />
+    <include layout="@layout/picture_title_bar1" />
 
 
-    <include layout="@layout/picture_bottom_bar" />
+    <include layout="@layout/picture_bottom_bar1" />
 
 
     <com.luck.picture.lib2.widget.PreviewViewPager

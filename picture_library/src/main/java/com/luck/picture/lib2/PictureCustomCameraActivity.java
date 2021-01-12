@@ -246,7 +246,7 @@ public class PictureCustomCameraActivity extends PictureSelectorCameraEmptyActiv
             return;
         }
         final PictureCustomDialog dialog =
-                new PictureCustomDialog(getContext(), R.layout.picture_wind_base_dialog);
+                new PictureCustomDialog(getContext(), R.layout.picture_wind_base_dialog1);
         dialog.setCancelable(false);
         dialog.setCanceledOnTouchOutside(false);
         Button btn_cancel = dialog.findViewById(R.id.btn_cancel);

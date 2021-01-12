@@ -151,7 +151,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
 
     @Override
     public int getResourceId() {
-        return R.layout.picture_selector;
+        return R.layout.picture_selector1;
     }
 
     @Override
@@ -1228,7 +1228,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
      */
     private void AudioDialog(final String path) {
         if (!isFinishing()) {
-            audioDialog = new PictureCustomDialog(getContext(), R.layout.picture_audio_dialog);
+            audioDialog = new PictureCustomDialog(getContext(), R.layout.picture_audio_dialog1);
             if (audioDialog.getWindow() != null) {
                 audioDialog.getWindow().setWindowAnimations(R.style.Picture_Theme_Dialog_AudioStyle);
             }
@@ -2460,7 +2460,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
             return;
         }
         final PictureCustomDialog dialog =
-                new PictureCustomDialog(getContext(), R.layout.picture_wind_base_dialog);
+                new PictureCustomDialog(getContext(), R.layout.picture_wind_base_dialog1);
         dialog.setCancelable(false);
         dialog.setCanceledOnTouchOutside(false);
         Button btn_cancel = dialog.findViewById(R.id.btn_cancel);

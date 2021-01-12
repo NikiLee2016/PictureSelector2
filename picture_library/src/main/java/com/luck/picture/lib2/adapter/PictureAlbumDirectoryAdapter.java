@@ -51,7 +51,7 @@ public class PictureAlbumDirectoryAdapter extends RecyclerView.Adapter<PictureAl
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.picture_album_folder_item, parent, false);
+                .inflate(R.layout.picture_album_folder_item1, parent, false);
         return new ViewHolder(itemView);
     }
 

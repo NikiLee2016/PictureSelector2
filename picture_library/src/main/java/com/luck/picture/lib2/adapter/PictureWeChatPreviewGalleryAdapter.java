@@ -59,7 +59,7 @@ public class PictureWeChatPreviewGalleryAdapter
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.picture_wechat_preview_gallery, parent, false);
+                .inflate(R.layout.picture_wechat_preview_gallery1, parent, false);
         return new ViewHolder(itemView);
     }
 

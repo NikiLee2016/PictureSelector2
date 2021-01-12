@@ -83,7 +83,7 @@ public class PictureSelectorCameraEmptyActivity extends PictureBaseActivity {
 
     @Override
     public int getResourceId() {
-        return R.layout.picture_empty;
+        return R.layout.picture_empty1;
     }
 
 

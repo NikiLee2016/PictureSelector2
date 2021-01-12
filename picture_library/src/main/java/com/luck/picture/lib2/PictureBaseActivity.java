@@ -790,7 +790,7 @@ public abstract class PictureBaseActivity extends AppCompatActivity {
      */
     protected void showPromptDialog(String content) {
         if (!isFinishing()) {
-            PictureCustomDialog dialog = new PictureCustomDialog(getContext(), R.layout.picture_prompt_dialog);
+            PictureCustomDialog dialog = new PictureCustomDialog(getContext(), R.layout.picture_prompt_dialog1);
             TextView btnOk = dialog.findViewById(R.id.btnOk);
             TextView tvContent = dialog.findViewById(R.id.tv_content);
             tvContent.setText(content);

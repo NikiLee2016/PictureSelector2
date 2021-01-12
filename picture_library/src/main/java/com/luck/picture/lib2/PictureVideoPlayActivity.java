@@ -60,7 +60,7 @@ public class PictureVideoPlayActivity extends PictureBaseActivity implements
 
     @Override
     public int getResourceId() {
-        return R.layout.picture_activity_video_play;
+        return R.layout.picture_activity_video_play1;
     }
 
     @Override

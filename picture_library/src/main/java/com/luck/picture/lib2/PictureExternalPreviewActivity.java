@@ -78,7 +78,7 @@ public class PictureExternalPreviewActivity extends PictureBaseActivity implemen
 
     @Override
     public int getResourceId() {
-        return R.layout.picture_activity_external_preview;
+        return R.layout.picture_activity_external_preview1;
     }
 
     @Override
@@ -242,7 +242,7 @@ public class PictureExternalPreviewActivity extends PictureBaseActivity implemen
             View contentView = mCacheView.get(position);
             if (contentView == null) {
                 contentView = LayoutInflater.from(container.getContext())
-                        .inflate(R.layout.picture_image_preview, container, false);
+                        .inflate(R.layout.picture_image_preview1, container, false);
                 mCacheView.put(position, contentView);
             }
             // 常规图控件
@@ -385,7 +385,7 @@ public class PictureExternalPreviewActivity extends PictureBaseActivity implemen
     private void showDownLoadDialog() {
         if (!isFinishing() && !TextUtils.isEmpty(downloadPath)) {
             final PictureCustomDialog dialog =
-                    new PictureCustomDialog(getContext(), R.layout.picture_wind_base_dialog);
+                    new PictureCustomDialog(getContext(), R.layout.picture_wind_base_dialog1);
             Button btn_cancel = dialog.findViewById(R.id.btn_cancel);
             Button btn_commit = dialog.findViewById(R.id.btn_commit);
             TextView tvTitle = dialog.findViewById(R.id.tvTitle);

@@ -136,10 +136,10 @@ public class PictureImageGridAdapter extends RecyclerView.Adapter<RecyclerView.V
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (viewType == PictureConfig.TYPE_CAMERA) {
-            View view = LayoutInflater.from(context).inflate(R.layout.picture_item_camera, parent, false);
+            View view = LayoutInflater.from(context).inflate(R.layout.picture_item_camera1, parent, false);
             return new CameraViewHolder(view);
         } else {
-            View view = LayoutInflater.from(context).inflate(R.layout.picture_image_grid_item, parent, false);
+            View view = LayoutInflater.from(context).inflate(R.layout.picture_image_grid_item1, parent, false);
             return new ViewHolder(view);
         }
     }
@@ -753,7 +753,7 @@ public class PictureImageGridAdapter extends RecyclerView.Adapter<RecyclerView.V
      * Tips
      */
     private void showPromptDialog(String content) {
-        PictureCustomDialog dialog = new PictureCustomDialog(context, R.layout.picture_prompt_dialog);
+        PictureCustomDialog dialog = new PictureCustomDialog(context, R.layout.picture_prompt_dialog1);
         TextView btnOk = dialog.findViewById(R.id.btnOk);
         TextView tvContent = dialog.findViewById(R.id.tv_content);
         tvContent.setText(content);

@@ -8,9 +8,9 @@
     android:fitsSystemWindows="true"
     tools:context="com.luck.picture.lib2.PictureSelectorActivity">
 
-    <include layout="@layout/picture_title_bar" />
+    <include layout="@layout/picture_title_bar1" />
 
-    <include layout="@layout/picture_bottom_bar" />
+    <include layout="@layout/picture_bottom_bar1" />
 
     <com.luck.picture.lib2.widget.RecyclerPreloadView
         android:id="@+id/picture_recycler"
