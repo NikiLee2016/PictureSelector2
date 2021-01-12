@@ -328,25 +328,25 @@ public class PictureParameterStyle {
         // 相册父容器背景色
         uiStyle.pictureContainerBackgroundColor = Color.parseColor("#000000");
         // 相册列表标题栏右侧上拉箭头
-        uiStyle.pictureTitleUpResId = R.drawable.picture_icon_arrow_up;
+        uiStyle.pictureTitleUpResId = R.drawable.picture_icon_arrow_up1;
         // 相册列表标题栏右侧下拉箭头
-        uiStyle.pictureTitleDownResId = R.drawable.picture_icon_arrow_down;
+        uiStyle.pictureTitleDownResId = R.drawable.picture_icon_arrow_down1;
         // 相册文件夹列表选中圆点
-        uiStyle.pictureFolderCheckedDotStyle = R.drawable.picture_orange_oval;
+        uiStyle.pictureFolderCheckedDotStyle = R.drawable.picture_orange_oval1;
         // 相册返回箭头
-        uiStyle.pictureLeftBackIcon = R.drawable.picture_icon_back;
+        uiStyle.pictureLeftBackIcon = R.drawable.picture_icon_back1;
         // 标题栏字体颜色
         uiStyle.pictureTitleTextColor = Color.parseColor("#FFFFFF");
         // 相册右侧取消按钮字体颜色  废弃 改用.pictureRightDefaultTextColor和.pictureRightDefaultTextColor
         uiStyle.pictureCancelTextColor = Color.parseColor("#FFFFFF");
         // 选择相册目录背景样式
-        uiStyle.pictureAlbumStyle = R.drawable.picture_item_select_bg;
+        uiStyle.pictureAlbumStyle = R.drawable.picture_item_select_bg1;
         // 相册列表勾选图片样式
-        uiStyle.pictureCheckedStyle = R.drawable.picture_checkbox_selector;
+        uiStyle.pictureCheckedStyle = R.drawable.picture_checkbox_selector1;
         // 相册列表底部背景色
         uiStyle.pictureBottomBgColor = Color.parseColor("#393a3e");
         // 已选数量圆点背景样式
-        uiStyle.pictureCheckNumBgStyle = R.drawable.picture_num_oval;
+        uiStyle.pictureCheckNumBgStyle = R.drawable.picture_num_oval1;
         // 相册列表底下预览文字色值(预览按钮可点击时的色值)
         uiStyle.picturePreviewTextColor = Color.parseColor("#FA632D");
         // 相册列表底下不可预览文字色值(预览按钮不可点击时的色值)
@@ -358,9 +358,9 @@ public class PictureParameterStyle {
         // 预览界面底部背景色
         uiStyle.picturePreviewBottomBgColor = Color.parseColor("#393a3e");
         // 外部预览界面删除按钮样式
-        uiStyle.pictureExternalPreviewDeleteStyle = R.drawable.picture_icon_delete;
+        uiStyle.pictureExternalPreviewDeleteStyle = R.drawable.picture_icon_delete1;
         // 原图按钮勾选样式  需设置.isOriginalImageControl(true); 才有效
-        uiStyle.pictureOriginalControlStyle = R.drawable.picture_original_wechat_checkbox;
+        uiStyle.pictureOriginalControlStyle = R.drawable.picture_original_wechat_checkbox1;
         // 原图文字颜色 需设置.isOriginalImageControl(true); 才有效
         uiStyle.pictureOriginalFontColor = Color.parseColor("#FFFFFF");
         // 外部预览界面是否显示删除按钮
@@ -388,25 +388,25 @@ public class PictureParameterStyle {
         // 相册列表标题栏背景色
         uiStyle.pictureTitleBarBackgroundColor = Color.parseColor("#FFFFFF");
         // 相册列表标题栏右侧上拉箭头
-        uiStyle.pictureTitleUpResId = R.drawable.picture_icon_orange_arrow_up;
+        uiStyle.pictureTitleUpResId = R.drawable.picture_icon_orange_arrow_up1;
         // 相册列表标题栏右侧下拉箭头
-        uiStyle.pictureTitleDownResId = R.drawable.picture_icon_orange_arrow_down;
+        uiStyle.pictureTitleDownResId = R.drawable.picture_icon_orange_arrow_down1;
         // 相册文件夹列表选中圆点
-        uiStyle.pictureFolderCheckedDotStyle = R.drawable.picture_orange_oval;
+        uiStyle.pictureFolderCheckedDotStyle = R.drawable.picture_orange_oval1;
         // 相册返回箭头
-        uiStyle.pictureLeftBackIcon = R.drawable.picture_icon_back_arrow;
+        uiStyle.pictureLeftBackIcon = R.drawable.picture_icon_back_arrow1;
         // 标题栏字体颜色
         uiStyle.pictureTitleTextColor = Color.parseColor("#000000");
         // 相册右侧取消按钮字体颜色  废弃 改用.pictureRightDefaultTextColor和.pictureRightDefaultTextColor
         uiStyle.pictureCancelTextColor = Color.parseColor("#000000");
         // 选择相册目录背景样式
-        uiStyle.pictureAlbumStyle = R.drawable.picture_item_select_bg;
+        uiStyle.pictureAlbumStyle = R.drawable.picture_item_select_bg1;
         // 相册列表勾选图片样式
-        uiStyle.pictureCheckedStyle = R.drawable.picture_checkbox_selector;
+        uiStyle.pictureCheckedStyle = R.drawable.picture_checkbox_selector1;
         // 相册列表底部背景色
         uiStyle.pictureBottomBgColor = Color.parseColor("#FAFAFA");
         // 已选数量圆点背景样式
-        uiStyle.pictureCheckNumBgStyle = R.drawable.picture_num_oval;
+        uiStyle.pictureCheckNumBgStyle = R.drawable.picture_num_oval1;
         // 相册列表底下预览文字色值(预览按钮可点击时的色值)
         uiStyle.picturePreviewTextColor = Color.parseColor("#FA632D");
         // 相册列表底下不可预览文字色值(预览按钮不可点击时的色值)
@@ -418,11 +418,11 @@ public class PictureParameterStyle {
         // 预览界面底部背景色
         uiStyle.picturePreviewBottomBgColor = Color.parseColor("#FAFAFA");
         // 原图按钮勾选样式  需设置.isOriginalImageControl(true); 才有效
-        uiStyle.pictureOriginalControlStyle = R.drawable.picture_original_checkbox;
+        uiStyle.pictureOriginalControlStyle = R.drawable.picture_original_checkbox1;
         // 原图文字颜色 需设置.isOriginalImageControl(true); 才有效
         uiStyle.pictureOriginalFontColor = Color.parseColor("#53575e");
         // 外部预览界面删除按钮样式
-        uiStyle.pictureExternalPreviewDeleteStyle = R.drawable.picture_icon_black_delete;
+        uiStyle.pictureExternalPreviewDeleteStyle = R.drawable.picture_icon_black_delete1;
         // 外部预览界面是否显示删除按钮
         uiStyle.pictureExternalPreviewGonePreviewDelete = true;
         return uiStyle;
@@ -446,25 +446,25 @@ public class PictureParameterStyle {
         // 相册列表标题栏背景色
         uiStyle.pictureTitleBarBackgroundColor = Color.parseColor("#7D7DFF");
         // 相册列表标题栏右侧上拉箭头
-        uiStyle.pictureTitleUpResId = R.drawable.picture_icon_arrow_up;
+        uiStyle.pictureTitleUpResId = R.drawable.picture_icon_arrow_up1;
         // 相册列表标题栏右侧下拉箭头
-        uiStyle.pictureTitleDownResId = R.drawable.picture_icon_arrow_down;
+        uiStyle.pictureTitleDownResId = R.drawable.picture_icon_arrow_down1;
         // 相册文件夹列表选中圆点
-        uiStyle.pictureFolderCheckedDotStyle = R.drawable.picture_orange_oval;
+        uiStyle.pictureFolderCheckedDotStyle = R.drawable.picture_orange_oval1;
         // 相册返回箭头
-        uiStyle.pictureLeftBackIcon = R.drawable.picture_icon_back;
+        uiStyle.pictureLeftBackIcon = R.drawable.picture_icon_back1;
         // 标题栏字体颜色
         uiStyle.pictureTitleTextColor = Color.parseColor("#FFFFFF");
         // 相册右侧取消按钮字体颜色  废弃 改用.pictureRightDefaultTextColor和.pictureRightDefaultTextColor
         uiStyle.pictureCancelTextColor = Color.parseColor("#FFFFFF");
         // 选择相册目录背景样式
-        uiStyle.pictureAlbumStyle = R.drawable.picture_item_select_bg;
+        uiStyle.pictureAlbumStyle = R.drawable.picture_item_select_bg1;
         // 相册列表勾选图片样式
-        uiStyle.pictureCheckedStyle = R.drawable.picture_checkbox_num_selector;
+        uiStyle.pictureCheckedStyle = R.drawable.picture_checkbox_num_selector1;
         // 相册列表底部背景色
         uiStyle.pictureBottomBgColor = Color.parseColor("#FAFAFA");
         // 已选数量圆点背景样式
-        uiStyle.pictureCheckNumBgStyle = R.drawable.picture_num_oval_blue;
+        uiStyle.pictureCheckNumBgStyle = R.drawable.picture_num_oval_blue1;
         // 相册列表底下预览文字色值(预览按钮可点击时的色值)
         uiStyle.picturePreviewTextColor = Color.parseColor("#7D7DFF");
         // 相册列表底下不可预览文字色值(预览按钮不可点击时的色值)
@@ -476,11 +476,11 @@ public class PictureParameterStyle {
         // 预览界面底部背景色
         uiStyle.picturePreviewBottomBgColor = Color.parseColor("#FAFAFA");
         // 原图按钮勾选样式  需设置.isOriginalImageControl(true); 才有效
-        uiStyle.pictureOriginalControlStyle = R.drawable.picture_original_blue_checkbox;
+        uiStyle.pictureOriginalControlStyle = R.drawable.picture_original_blue_checkbox1;
         // 原图文字颜色 需设置.isOriginalImageControl(true); 才有效
         uiStyle.pictureOriginalFontColor = Color.parseColor("#7D7DFF");
         // 外部预览界面删除按钮样式
-        uiStyle.pictureExternalPreviewDeleteStyle = R.drawable.picture_icon_delete;
+        uiStyle.pictureExternalPreviewDeleteStyle = R.drawable.picture_icon_delete1;
         // 外部预览界面是否显示删除按钮
         uiStyle.pictureExternalPreviewGonePreviewDelete = true;
         return uiStyle;
@@ -508,13 +508,13 @@ public class PictureParameterStyle {
         // 相册父容器背景色
         uiStyle.pictureContainerBackgroundColor = Color.parseColor("#FFFFFF");
         // 相册列表标题栏右侧上拉箭头
-        uiStyle.pictureTitleUpResId = R.drawable.picture_icon_wechat_up;
+        uiStyle.pictureTitleUpResId = R.drawable.picture_icon_wechat_up1;
         // 相册列表标题栏右侧下拉箭头
-        uiStyle.pictureTitleDownResId = R.drawable.picture_icon_wechat_down;
+        uiStyle.pictureTitleDownResId = R.drawable.picture_icon_wechat_down1;
         // 相册文件夹列表选中圆点
-        uiStyle.pictureFolderCheckedDotStyle = R.drawable.picture_orange_oval;
+        uiStyle.pictureFolderCheckedDotStyle = R.drawable.picture_orange_oval1;
         // 相册返回箭头
-        uiStyle.pictureLeftBackIcon = R.drawable.picture_icon_close;
+        uiStyle.pictureLeftBackIcon = R.drawable.picture_icon_close1;
         // 标题栏字体颜色
         uiStyle.pictureTitleTextColor = Color.parseColor("#FFFFFF");
         // 相册右侧按钮字体颜色  废弃 改用.pictureRightDefaultTextColor和.pictureRightDefaultTextColor
@@ -524,23 +524,23 @@ public class PictureParameterStyle {
         // 相册右侧按可点击字体颜色,只针对isWeChatStyle 为true时有效果
         uiStyle.pictureRightSelectedTextColor = Color.parseColor("#FFFFFF");
         // 相册右侧按钮背景样式,只针对isWeChatStyle 为true时有效果
-        uiStyle.pictureUnCompleteBackgroundStyle = R.drawable.picture_send_button_default_bg;
+        uiStyle.pictureUnCompleteBackgroundStyle = R.drawable.picture_send_button_default_bg1;
         // 相册右侧按钮可点击背景样式,只针对isWeChatStyle 为true时有效果
-        uiStyle.pictureCompleteBackgroundStyle = R.drawable.picture_send_button_bg;
+        uiStyle.pictureCompleteBackgroundStyle = R.drawable.picture_send_button_bg1;
         // 选择相册目录背景样式
-        uiStyle.pictureAlbumStyle = R.drawable.picture_item_select_bg;
+        uiStyle.pictureAlbumStyle = R.drawable.picture_item_select_bg1;
         // 相册列表勾选图片样式
-        uiStyle.pictureCheckedStyle = R.drawable.picture_wechat_num_selector;
+        uiStyle.pictureCheckedStyle = R.drawable.picture_wechat_num_selector1;
         // 相册标题背景样式 ,只针对isWeChatStyle 为true时有效果
-        uiStyle.pictureWeChatTitleBackgroundStyle = R.drawable.picture_album_bg;
+        uiStyle.pictureWeChatTitleBackgroundStyle = R.drawable.picture_album_bg1;
         // 微信样式 预览右下角样式 ,只针对isWeChatStyle 为true时有效果
-        uiStyle.pictureWeChatChooseStyle = R.drawable.picture_wechat_select_cb;
+        uiStyle.pictureWeChatChooseStyle = R.drawable.picture_wechat_select_cb1;
         // 相册返回箭头 ,只针对isWeChatStyle 为true时有效果
-        uiStyle.pictureWeChatLeftBackStyle = R.drawable.picture_icon_back;
+        uiStyle.pictureWeChatLeftBackStyle = R.drawable.picture_icon_back1;
         // 相册列表底部背景色
         uiStyle.pictureBottomBgColor = Color.parseColor("#393a3e");
         // 已选数量圆点背景样式
-        uiStyle.pictureCheckNumBgStyle = R.drawable.picture_num_oval;
+        uiStyle.pictureCheckNumBgStyle = R.drawable.picture_num_oval1;
         // 相册列表底下预览文字色值(预览按钮可点击时的色值)
         uiStyle.picturePreviewTextColor = Color.parseColor("#FFFFFF");
         // 相册列表底下不可预览文字色值(预览按钮不可点击时的色值)
@@ -552,9 +552,9 @@ public class PictureParameterStyle {
         // 预览界面底部背景色
         uiStyle.picturePreviewBottomBgColor = Color.parseColor("#a0393a3e");
         // 外部预览界面删除按钮样式
-        uiStyle.pictureExternalPreviewDeleteStyle = R.drawable.picture_icon_delete;
+        uiStyle.pictureExternalPreviewDeleteStyle = R.drawable.picture_icon_delete1;
         // 原图按钮勾选样式  需设置.isOriginalImageControl(true); 才有效
-        uiStyle.pictureOriginalControlStyle = R.drawable.picture_original_wechat_checkbox;
+        uiStyle.pictureOriginalControlStyle = R.drawable.picture_original_wechat_checkbox1;
         // 原图文字颜色 需设置.isOriginalImageControl(true); 才有效
         uiStyle.pictureOriginalFontColor = Color.parseColor("#FFFFFF");
         // 外部预览界面是否显示删除按钮

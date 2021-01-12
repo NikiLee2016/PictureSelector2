@@ -37,7 +37,7 @@ public class PictureSelectorPreviewWeChatStyleActivity extends PicturePreviewAct
 
     @Override
     public int getResourceId() {
-        return R.layout.picture_wechat_style_preview;
+        return R.layout.picture_wechat_style_preview1;
     }
 
     private void goneParent() {
@@ -126,7 +126,7 @@ public class PictureSelectorPreviewWeChatStyleActivity extends PicturePreviewAct
             if (PictureSelectionConfig.uiStyle.picture_top_titleRightTextNormalBackground != 0) {
                 mTvPictureRight.setBackgroundResource(PictureSelectionConfig.uiStyle.picture_top_titleRightTextNormalBackground);
             } else {
-                mTvPictureRight.setBackgroundResource(R.drawable.picture_send_button_bg);
+                mTvPictureRight.setBackgroundResource(R.drawable.picture_send_button_bg1);
             }
             if (PictureSelectionConfig.uiStyle.picture_top_titleRightTextSize != 0) {
                 mTvPictureRight.setTextSize(PictureSelectionConfig.uiStyle.picture_top_titleRightTextSize);
@@ -151,13 +151,13 @@ public class PictureSelectorPreviewWeChatStyleActivity extends PicturePreviewAct
             if (PictureSelectionConfig.uiStyle.picture_bottom_selectedCheckStyle != 0) {
                 check.setBackgroundResource(PictureSelectionConfig.uiStyle.picture_bottom_selectedCheckStyle);
             } else {
-                check.setBackgroundResource(R.drawable.picture_wechat_select_cb);
+                check.setBackgroundResource(R.drawable.picture_wechat_select_cb1);
             }
 
             if (PictureSelectionConfig.uiStyle.picture_top_leftBack != 0) {
                 pictureLeftBack.setImageResource(PictureSelectionConfig.uiStyle.picture_top_leftBack);
             } else {
-                pictureLeftBack.setImageResource(R.drawable.picture_icon_back);
+                pictureLeftBack.setImageResource(R.drawable.picture_icon_back1);
             }
 
             if (PictureSelectionConfig.uiStyle.picture_bottom_gallery_backgroundColor != 0) {
@@ -188,14 +188,14 @@ public class PictureSelectorPreviewWeChatStyleActivity extends PicturePreviewAct
                 if (PictureSelectionConfig.uiStyle.picture_bottom_originalPictureCheckStyle != 0) {
                     mCbOriginal.setButtonDrawable(PictureSelectionConfig.uiStyle.picture_bottom_originalPictureCheckStyle);
                 } else {
-                    mCbOriginal.setButtonDrawable(R.drawable.picture_original_wechat_checkbox);
+                    mCbOriginal.setButtonDrawable(R.drawable.picture_original_wechat_checkbox1);
                 }
             }
         } else if (PictureSelectionConfig.style != null) {
             if (PictureSelectionConfig.style.pictureCompleteBackgroundStyle != 0) {
                 mTvPictureRight.setBackgroundResource(PictureSelectionConfig.style.pictureCompleteBackgroundStyle);
             } else {
-                mTvPictureRight.setBackgroundResource(R.drawable.picture_send_button_bg);
+                mTvPictureRight.setBackgroundResource(R.drawable.picture_send_button_bg1);
             }
             if (PictureSelectionConfig.style.pictureRightTextSize != 0) {
                 mTvPictureRight.setTextSize(PictureSelectionConfig.style.pictureRightTextSize);
@@ -227,33 +227,33 @@ public class PictureSelectorPreviewWeChatStyleActivity extends PicturePreviewAct
             if (PictureSelectionConfig.style.pictureWeChatChooseStyle != 0) {
                 check.setBackgroundResource(PictureSelectionConfig.style.pictureWeChatChooseStyle);
             } else {
-                check.setBackgroundResource(R.drawable.picture_wechat_select_cb);
+                check.setBackgroundResource(R.drawable.picture_wechat_select_cb1);
             }
             if (config.isOriginalControl) {
                 if (PictureSelectionConfig.style.pictureOriginalControlStyle == 0) {
                     mCbOriginal.setButtonDrawable(ContextCompat
-                            .getDrawable(this, R.drawable.picture_original_wechat_checkbox));
+                            .getDrawable(this, R.drawable.picture_original_wechat_checkbox1));
                 }
             }
             if (PictureSelectionConfig.style.pictureWeChatLeftBackStyle != 0) {
                 pictureLeftBack.setImageResource(PictureSelectionConfig.style.pictureWeChatLeftBackStyle);
             } else {
-                pictureLeftBack.setImageResource(R.drawable.picture_icon_back);
+                pictureLeftBack.setImageResource(R.drawable.picture_icon_back1);
             }
             if (!TextUtils.isEmpty(PictureSelectionConfig.style.pictureUnCompleteText)) {
                 mTvPictureRight.setText(PictureSelectionConfig.style.pictureUnCompleteText);
             }
         } else {
-            mTvPictureRight.setBackgroundResource(R.drawable.picture_send_button_bg);
+            mTvPictureRight.setBackgroundResource(R.drawable.picture_send_button_bg1);
             mTvPictureRight.setTextColor(ContextCompat.getColor(getContext(), R.color.picture_color_white));
             selectBarLayout.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.picture_color_half_grey));
-            check.setBackgroundResource(R.drawable.picture_wechat_select_cb);
-            pictureLeftBack.setImageResource(R.drawable.picture_icon_back);
+            check.setBackgroundResource(R.drawable.picture_wechat_select_cb1);
+            pictureLeftBack.setImageResource(R.drawable.picture_icon_back1);
             mCbOriginal.setTextColor(ContextCompat
                     .getColor(this, R.color.picture_color_white));
             if (config.isOriginalControl) {
                 mCbOriginal.setButtonDrawable(ContextCompat
-                        .getDrawable(this, R.drawable.picture_original_wechat_checkbox));
+                        .getDrawable(this, R.drawable.picture_original_wechat_checkbox1));
             }
         }
 
@@ -378,7 +378,7 @@ public class PictureSelectorPreviewWeChatStyleActivity extends PicturePreviewAct
                 }
             } else {
                 mTvPictureRight.setTextColor(ContextCompat.getColor(getContext(), R.color.picture_color_white));
-                mTvPictureRight.setBackgroundResource(R.drawable.picture_send_button_bg);
+                mTvPictureRight.setBackgroundResource(R.drawable.picture_send_button_bg1);
             }
         } else {
             if (PictureSelectionConfig.style != null && !TextUtils.isEmpty(PictureSelectionConfig.style.pictureUnCompleteText)) {

@@ -196,15 +196,15 @@ public class GridImageAdapter extends
             if (chooseModel == PictureMimeType.ofAudio()) {
                 viewHolder.tvDuration.setVisibility(View.VISIBLE);
                 viewHolder.tvDuration.setCompoundDrawablesRelativeWithIntrinsicBounds
-                        (R.drawable.picture_icon_audio, 0, 0, 0);
+                        (R.drawable.picture_icon_audio1, 0, 0, 0);
 
             } else {
                 viewHolder.tvDuration.setCompoundDrawablesRelativeWithIntrinsicBounds
-                        (R.drawable.picture_icon_video, 0, 0, 0);
+                        (R.drawable.picture_icon_video1, 0, 0, 0);
             }
             viewHolder.tvDuration.setText(DateUtils.formatDurationTime(duration));
             if (chooseModel == PictureMimeType.ofAudio()) {
-                viewHolder.mImg.setImageResource(R.drawable.picture_audio_placeholder);
+                viewHolder.mImg.setImageResource(R.drawable.picture_audio_placeholder1);
             } else {
                 Glide.with(viewHolder.itemView.getContext())
                         .load(PictureMimeType.isContent(path) && !media.isCut() && !media.isCompressed() ? Uri.parse(path)

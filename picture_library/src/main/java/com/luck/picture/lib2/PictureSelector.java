@@ -158,7 +158,7 @@ public final class PictureSelector {
                 intent.putExtra(PictureConfig.EXTRA_POSITION, position);
                 getActivity().startActivity(intent);
                 getActivity().overridePendingTransition(enterAnimation != 0
-                        ? enterAnimation : R.anim.picture_anim_enter, R.anim.picture_anim_fade_in);
+                        ? enterAnimation : R.anim.picture_anim_enter1, R.anim.picture_anim_fade_in1);
             } else {
                 throw new NullPointerException("Starting the PictureSelector Activity cannot be empty ");
             }
@@ -181,7 +181,7 @@ public final class PictureSelector {
                 intent.putExtra(PictureConfig.EXTRA_DIRECTORY_PATH, directory_path);
                 getActivity().startActivity(intent);
                 getActivity().overridePendingTransition(enterAnimation != 0
-                        ? enterAnimation : R.anim.picture_anim_enter, R.anim.picture_anim_fade_in);
+                        ? enterAnimation : R.anim.picture_anim_enter1, R.anim.picture_anim_fade_in1);
             } else {
                 throw new NullPointerException("Starting the PictureSelector Activity cannot be empty ");
             }
@@ -217,7 +217,7 @@ public final class PictureSelector {
                 Intent intent = new Intent(getActivity(), PicturePlayAudioActivity.class);
                 intent.putExtra(PictureConfig.EXTRA_AUDIO_PATH, path);
                 getActivity().startActivity(intent);
-                getActivity().overridePendingTransition(R.anim.picture_anim_enter, 0);
+                getActivity().overridePendingTransition(R.anim.picture_anim_enter1, 0);
             } else {
                 throw new NullPointerException("Starting the PictureSelector Activity cannot be empty ");
             }

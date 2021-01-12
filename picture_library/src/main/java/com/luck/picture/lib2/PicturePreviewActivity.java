@@ -93,7 +93,7 @@ public class PicturePreviewActivity extends PictureBaseActivity implements
 
     @Override
     public int getResourceId() {
-        return R.layout.picture_preview;
+        return R.layout.picture_preview11;
     }
 
     @Override
@@ -116,7 +116,7 @@ public class PicturePreviewActivity extends PictureBaseActivity implements
         mHandler = new Handler();
         mTitleBar = findViewById(R.id.titleBar);
         screenWidth = ScreenUtils.getScreenWidth(this);
-        animation = AnimationUtils.loadAnimation(this, R.anim.picture_anim_modal_in);
+        animation = AnimationUtils.loadAnimation(this, R.anim.picture_anim_modal_in1);
         pictureLeftBack = findViewById(R.id.pictureLeftBack);
         mTvPictureRight = findViewById(R.id.picture_right);
         mIvArrow = findViewById(R.id.ivArrow);
@@ -402,7 +402,7 @@ public class PicturePreviewActivity extends PictureBaseActivity implements
                 if (PictureSelectionConfig.uiStyle.picture_bottom_originalPictureCheckStyle != 0) {
                     mCbOriginal.setButtonDrawable(PictureSelectionConfig.uiStyle.picture_bottom_originalPictureCheckStyle);
                 } else {
-                    mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox));
+                    mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox1));
                 }
                 if (PictureSelectionConfig.uiStyle.picture_bottom_originalPictureTextColor != 0) {
                     mCbOriginal.setTextColor(PictureSelectionConfig.uiStyle.picture_bottom_originalPictureTextColor);
@@ -413,7 +413,7 @@ public class PicturePreviewActivity extends PictureBaseActivity implements
                     mCbOriginal.setTextSize(PictureSelectionConfig.uiStyle.picture_bottom_originalPictureTextSize);
                 }
             } else {
-                mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox));
+                mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox1));
                 mCbOriginal.setTextColor(ContextCompat.getColor(this, R.color.picture_color_53575e));
             }
         } else if (PictureSelectionConfig.style != null) {
@@ -449,7 +449,7 @@ public class PicturePreviewActivity extends PictureBaseActivity implements
                 if (PictureSelectionConfig.style.pictureOriginalControlStyle != 0) {
                     mCbOriginal.setButtonDrawable(PictureSelectionConfig.style.pictureOriginalControlStyle);
                 } else {
-                    mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox));
+                    mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox1));
                 }
                 if (PictureSelectionConfig.style.pictureOriginalFontColor != 0) {
                     mCbOriginal.setTextColor(PictureSelectionConfig.style.pictureOriginalFontColor);
@@ -460,20 +460,20 @@ public class PicturePreviewActivity extends PictureBaseActivity implements
                     mCbOriginal.setTextSize(PictureSelectionConfig.style.pictureOriginalTextSize);
                 }
             } else {
-                mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox));
+                mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox1));
                 mCbOriginal.setTextColor(ContextCompat.getColor(this, R.color.picture_color_53575e));
             }
         } else {
-            Drawable pictureCheckedStyle = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_checked_style, R.drawable.picture_checkbox_selector);
+            Drawable pictureCheckedStyle = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_checked_style, R.drawable.picture_checkbox_selector1);
             check.setBackground(pictureCheckedStyle);
             ColorStateList completeColorStateList = AttrsUtils.getTypeValueColorStateList(getContext(), R.attr.picture_ac_preview_complete_textColor);
             if (completeColorStateList != null) {
                 mTvPictureOk.setTextColor(completeColorStateList);
             }
-            Drawable leftDrawable = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_preview_leftBack_icon, R.drawable.picture_icon_back);
+            Drawable leftDrawable = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_preview_leftBack_icon, R.drawable.picture_icon_back1);
             pictureLeftBack.setImageDrawable(leftDrawable);
 
-            Drawable ovalBgDrawable = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_num_style, R.drawable.picture_num_oval);
+            Drawable ovalBgDrawable = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_num_style, R.drawable.picture_num_oval1);
             tvMediaNum.setBackground(ovalBgDrawable);
 
             int previewBottomBgColor = AttrsUtils.getTypeValueColor(getContext(), R.attr.picture_ac_preview_bottom_bg);
@@ -486,7 +486,7 @@ public class PicturePreviewActivity extends PictureBaseActivity implements
                 params.height = titleBarHeight;
             }
             if (config.isOriginalControl) {
-                Drawable originalDrawable = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_original_check_style, R.drawable.picture_original_wechat_checkbox);
+                Drawable originalDrawable = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_original_check_style, R.drawable.picture_original_wechat_checkbox1);
                 mCbOriginal.setButtonDrawable(originalDrawable);
                 int originalTextColor = AttrsUtils.getTypeValueColor(getContext(), R.attr.picture_original_text_color);
                 if (originalTextColor != 0) {

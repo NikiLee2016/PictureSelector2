@@ -74,20 +74,20 @@ public class FolderPopWindow extends PopupWindow {
             }
         } else {
             if (config.isWeChatStyle) {
-                this.drawableUp = ContextCompat.getDrawable(context, R.drawable.picture_icon_wechat_up);
-                this.drawableDown = ContextCompat.getDrawable(context, R.drawable.picture_icon_wechat_down);
+                this.drawableUp = ContextCompat.getDrawable(context, R.drawable.picture_icon_wechat_up1);
+                this.drawableDown = ContextCompat.getDrawable(context, R.drawable.picture_icon_wechat_down1);
             } else {
                 if (config.upResId != 0) {
                     this.drawableUp = ContextCompat.getDrawable(context, config.upResId);
                 } else {
                     // 兼容老的Theme方式
-                    this.drawableUp = AttrsUtils.getTypeValueDrawable(context, R.attr.picture_arrow_up_icon, R.drawable.picture_icon_arrow_up);
+                    this.drawableUp = AttrsUtils.getTypeValueDrawable(context, R.attr.picture_arrow_up_icon, R.drawable.picture_icon_arrow_up1);
                 }
                 if (config.downResId != 0) {
                     this.drawableDown = ContextCompat.getDrawable(context, config.downResId);
                 } else {
                     // 兼容老的Theme方式 picture.arrow_down.icon
-                    this.drawableDown = AttrsUtils.getTypeValueDrawable(context, R.attr.picture_arrow_down_icon, R.drawable.picture_icon_arrow_down);
+                    this.drawableDown = AttrsUtils.getTypeValueDrawable(context, R.attr.picture_arrow_down_icon, R.drawable.picture_icon_arrow_down1);
                 }
             }
         }

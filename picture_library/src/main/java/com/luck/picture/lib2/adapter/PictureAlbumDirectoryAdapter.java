@@ -75,7 +75,7 @@ public class PictureAlbumDirectoryAdapter extends RecyclerView.Adapter<PictureAl
             }
         }
         if (chooseMode == PictureMimeType.ofAudio()) {
-            holder.ivFirstImage.setImageResource(R.drawable.picture_audio_placeholder);
+            holder.ivFirstImage.setImageResource(R.drawable.picture_audio_placeholder1);
         } else {
             if (PictureSelectionConfig.imageEngine != null) {
                 PictureSelectionConfig.imageEngine.loadFolderImage(holder.itemView.getContext(),
@@ -136,7 +136,7 @@ public class PictureAlbumDirectoryAdapter extends RecyclerView.Adapter<PictureAl
                     tvFolderName.setTextSize(PictureSelectionConfig.style.folderTextSize);
                 }
             } else {
-                Drawable folderCheckedDotDrawable = AttrsUtils.getTypeValueDrawable(itemView.getContext(), R.attr.picture_folder_checked_dot, R.drawable.picture_orange_oval);
+                Drawable folderCheckedDotDrawable = AttrsUtils.getTypeValueDrawable(itemView.getContext(), R.attr.picture_folder_checked_dot, R.drawable.picture_orange_oval1);
                 tvSign.setBackground(folderCheckedDotDrawable);
                 int folderTextColor = AttrsUtils.getTypeValueColor(itemView.getContext(), R.attr.picture_folder_textColor);
                 if (folderTextColor != 0) {

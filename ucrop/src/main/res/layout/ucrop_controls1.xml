@@ -26,11 +26,11 @@
 
         <include
             android:id="@+id/layout_rotate_wheel"
-            layout="@layout/ucrop_layout_rotate_wheel" />
+            layout="@layout/ucrop_layout_rotate_wheel1" />
 
         <include
             android:id="@+id/layout_scale_wheel"
-            layout="@layout/ucrop_layout_scale_wheel" />
+            layout="@layout/ucrop_layout_scale_wheel1" />
 
     </FrameLayout>
 

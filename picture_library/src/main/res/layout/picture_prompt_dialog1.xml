@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/picture_dialog_shadow"
+    android:background="@drawable/picture_dialog_shadow1"
     android:orientation="vertical">
 
 
@@ -29,7 +29,7 @@
         android:id="@+id/btnOk"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@drawable/picture_btn_bottom_selector"
+        android:background="@drawable/picture_btn_bottom_selector1"
         android:gravity="center"
         android:text="@string/picture_know"
         android:textColor="@color/picture_color_9b"

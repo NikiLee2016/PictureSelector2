@@ -587,7 +587,7 @@ public abstract class PictureBaseActivity extends AppCompatActivity {
     protected void exit() {
         finish();
         if (config.camera) {
-            overridePendingTransition(0, R.anim.picture_anim_fade_out);
+            overridePendingTransition(0, R.anim.picture_anim_fade_out1);
             if (getContext() instanceof PictureSelectorCameraEmptyActivity
                     || getContext() instanceof PictureCustomCameraActivity) {
                 releaseResultListener();

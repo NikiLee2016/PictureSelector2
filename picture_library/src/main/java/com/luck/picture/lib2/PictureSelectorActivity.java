@@ -173,7 +173,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
         mTvEmpty = findViewById(R.id.tv_empty);
         isNumComplete(numComplete);
         if (!numComplete) {
-            animation = AnimationUtils.loadAnimation(this, R.anim.picture_anim_modal_in);
+            animation = AnimationUtils.loadAnimation(this, R.anim.picture_anim_modal_in1);
         }
         mTvPicturePreview.setOnClickListener(this);
         if (config.isAutomaticTitleRecyclerTop) {
@@ -290,7 +290,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
                                 } else {
                                     boolean isEmpty = mAdapter.isDataEmpty();
                                     if (isEmpty) {
-                                        showDataNull(bucketId == -1 ? getString(R.string.picture_empty) : getString(R.string.picture_data_null), R.drawable.picture_icon_no_data);
+                                        showDataNull(bucketId == -1 ? getString(R.string.picture_empty) : getString(R.string.picture_data_null), R.drawable.picture_icon_no_data1);
                                     }
                                 }
                             }
@@ -407,7 +407,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
                 if (PictureSelectionConfig.uiStyle.picture_bottom_originalPictureCheckStyle != 0) {
                     mCbOriginal.setButtonDrawable(PictureSelectionConfig.uiStyle.picture_bottom_originalPictureCheckStyle);
                 } else {
-                    mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox));
+                    mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox1));
                 }
                 if (PictureSelectionConfig.uiStyle.picture_bottom_originalPictureTextColor != 0) {
                     mCbOriginal.setTextColor(PictureSelectionConfig.uiStyle.picture_bottom_originalPictureTextColor);
@@ -421,7 +421,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
                     mCbOriginal.setText(PictureSelectionConfig.uiStyle.picture_bottom_originalPictureText);
                 }
             } else {
-                mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox));
+                mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox1));
                 mCbOriginal.setTextColor(ContextCompat.getColor(this, R.color.picture_color_white));
             }
         } else if (PictureSelectionConfig.style != null) {
@@ -494,7 +494,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
                 if (PictureSelectionConfig.style.pictureOriginalControlStyle != 0) {
                     mCbOriginal.setButtonDrawable(PictureSelectionConfig.style.pictureOriginalControlStyle);
                 } else {
-                    mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox));
+                    mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox1));
                 }
                 if (PictureSelectionConfig.style.pictureOriginalFontColor != 0) {
                     mCbOriginal.setTextColor(PictureSelectionConfig.style.pictureOriginalFontColor);
@@ -505,7 +505,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
                     mCbOriginal.setTextSize(PictureSelectionConfig.style.pictureOriginalTextSize);
                 }
             } else {
-                mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox));
+                mCbOriginal.setButtonDrawable(ContextCompat.getDrawable(this, R.drawable.picture_original_checkbox1));
                 mCbOriginal.setTextColor(ContextCompat.getColor(this, R.color.picture_color_white));
             }
         } else {
@@ -521,14 +521,14 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
             if (containerBackgroundColor != 0) {
                 container.setBackgroundColor(containerBackgroundColor);
             }
-            Drawable leftDrawable = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_leftBack_icon, R.drawable.picture_icon_back);
+            Drawable leftDrawable = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_leftBack_icon, R.drawable.picture_icon_back1);
             mIvPictureLeftBack.setImageDrawable(leftDrawable);
 
             if (config.downResId != 0) {
                 Drawable drawable = ContextCompat.getDrawable(this, config.downResId);
                 mIvArrow.setImageDrawable(drawable);
             } else {
-                Drawable downDrawable = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_arrow_down_icon, R.drawable.picture_icon_arrow_down);
+                Drawable downDrawable = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_arrow_down_icon, R.drawable.picture_icon_arrow_down1);
                 mIvArrow.setImageDrawable(downDrawable);
             }
             int pictureBottomBgColor = AttrsUtils.getTypeValueColor(getContext(), R.attr.picture_bottom_bg);
@@ -548,7 +548,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
                 RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) mIvArrow.getLayoutParams();
                 params.leftMargin = pictureTitleRightArrowLeftPadding;
             }
-            Drawable ovalBgDrawable = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_num_style, R.drawable.picture_num_oval);
+            Drawable ovalBgDrawable = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_num_style, R.drawable.picture_num_oval1);
             mTvPictureImgNum.setBackground(ovalBgDrawable);
 
             int titleBarHeight = AttrsUtils.getTypeValueSizeForInt(getContext(), R.attr.picture_titleBar_height);
@@ -557,7 +557,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
                 params.height = titleBarHeight;
             }
             if (config.isOriginalControl) {
-                Drawable originalDrawable = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_original_check_style, R.drawable.picture_original_wechat_checkbox);
+                Drawable originalDrawable = AttrsUtils.getTypeValueDrawable(getContext(), R.attr.picture_original_check_style, R.drawable.picture_original_wechat_checkbox1);
                 mCbOriginal.setButtonDrawable(originalDrawable);
                 int originalTextColor = AttrsUtils.getTypeValueColor(getContext(), R.attr.picture_original_text_color);
                 if (originalTextColor != 0) {
@@ -770,7 +770,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
                                 }
                                 boolean isEmpty = mAdapter.isDataEmpty();
                                 if (isEmpty) {
-                                    showDataNull(getString(R.string.picture_empty), R.drawable.picture_icon_no_data);
+                                    showDataNull(getString(R.string.picture_empty), R.drawable.picture_icon_no_data1);
                                 } else {
                                     hideDataNull();
                                 }
@@ -779,7 +779,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
                         }
                     });
         } else {
-            showDataNull(getString(R.string.picture_data_exception), R.drawable.picture_icon_data_error);
+            showDataNull(getString(R.string.picture_data_exception), R.drawable.picture_icon_data_error1);
             dismissDialog();
         }
     }
@@ -847,16 +847,16 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
                     }
                     boolean isEmpty = mAdapter.isDataEmpty();
                     if (isEmpty) {
-                        showDataNull(getString(R.string.picture_empty), R.drawable.picture_icon_no_data);
+                        showDataNull(getString(R.string.picture_empty), R.drawable.picture_icon_no_data1);
                     } else {
                         hideDataNull();
                     }
                 }
             } else {
-                showDataNull(getString(R.string.picture_empty), R.drawable.picture_icon_no_data);
+                showDataNull(getString(R.string.picture_empty), R.drawable.picture_icon_no_data1);
             }
         } else {
-            showDataNull(getString(R.string.picture_data_exception), R.drawable.picture_icon_data_error);
+            showDataNull(getString(R.string.picture_data_exception), R.drawable.picture_icon_data_error1);
         }
         dismissDialog();
     }
@@ -940,7 +940,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
             Intent intent = new Intent(this, PictureCustomCameraActivity.class);
             startActivityForResult(intent, PictureConfig.REQUEST_CAMERA);
             PictureWindowAnimationStyle windowAnimationStyle = PictureSelectionConfig.windowAnimationStyle;
-            overridePendingTransition(windowAnimationStyle.activityEnterAnimation, R.anim.picture_anim_fade_in);
+            overridePendingTransition(windowAnimationStyle.activityEnterAnimation, R.anim.picture_anim_fade_in1);
         } else {
             PermissionChecker
                     .requestPermissions(this,
@@ -1027,7 +1027,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
                 config.selectionMode == PictureConfig.SINGLE ? UCrop.REQUEST_CROP : UCrop.REQUEST_MULTI_CROP);
 
         overridePendingTransition(PictureSelectionConfig.windowAnimationStyle.activityPreviewEnterAnimation,
-                R.anim.picture_anim_fade_in);
+                R.anim.picture_anim_fade_in1);
     }
 
     /**
@@ -1585,7 +1585,7 @@ public class PictureSelectorActivity extends PictureBaseActivity implements View
             bundle.putString(PictureConfig.EXTRA_IS_CURRENT_DIRECTORY, mTvPictureTitle.getText().toString());
             JumpUtils.startPicturePreviewActivity(getContext(), config.isWeChatStyle, bundle,
                     config.selectionMode == PictureConfig.SINGLE ? UCrop.REQUEST_CROP : UCrop.REQUEST_MULTI_CROP);
-            overridePendingTransition(PictureSelectionConfig.windowAnimationStyle.activityPreviewEnterAnimation, R.anim.picture_anim_fade_in);
+            overridePendingTransition(PictureSelectionConfig.windowAnimationStyle.activityPreviewEnterAnimation, R.anim.picture_anim_fade_in1);
         }
     }
 

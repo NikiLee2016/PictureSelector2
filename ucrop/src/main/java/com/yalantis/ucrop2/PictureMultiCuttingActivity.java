@@ -132,7 +132,7 @@ public class PictureMultiCuttingActivity extends UCropActivity {
         if (mBlockingView != null) {
             uCropPhotoBox.removeView(mBlockingView);
         }
-        setContentView(R.layout.ucrop_activity_photobox);
+        setContentView(R.layout.ucrop_activity_photobox1);
         // setContentView之后重新获取一下容器id
         uCropPhotoBox = findViewById(R.id.ucrop_photobox);
         addBlockingView();

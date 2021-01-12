@@ -16,7 +16,7 @@
         android:layout_width="21dp"
         android:layout_height="21dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/picture_icon_video_play"
+        android:src="@drawable/picture_icon_video_play1"
         android:visibility="gone" />
 
     <View
@@ -27,5 +27,5 @@
         android:layout_alignTop="@id/ivImage"
         android:layout_alignEnd="@id/ivImage"
         android:layout_alignBottom="@id/ivImage"
-        android:background="@drawable/picture_preview_gallery_border_bg" />
+        android:background="@drawable/picture_preview_gallery_border_bg1" />
 </RelativeLayout>

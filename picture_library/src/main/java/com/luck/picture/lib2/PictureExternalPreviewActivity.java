@@ -603,7 +603,7 @@ public class PictureExternalPreviewActivity extends PictureBaseActivity implemen
     }
 
     private void exitAnimation() {
-        overridePendingTransition(R.anim.picture_anim_fade_in, PictureSelectionConfig.windowAnimationStyle.activityPreviewExitAnimation);
+        overridePendingTransition(R.anim.picture_anim_fade_in1, PictureSelectionConfig.windowAnimationStyle.activityPreviewExitAnimation);
     }
 
     @Override

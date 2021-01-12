@@ -197,7 +197,7 @@ public class PictureImageGridAdapter extends RecyclerView.Adapter<RecyclerView.V
                                             0, 0, 0);
                         } else {
                             contentHolder.tvDuration.setCompoundDrawablesRelativeWithIntrinsicBounds
-                                    (R.drawable.picture_icon_video, 0, 0, 0);
+                                    (R.drawable.picture_icon_video1, 0, 0, 0);
                         }
                     } else {
                         if (PictureSelectionConfig.uiStyle.picture_adapter_item_audio_textLeftDrawable != 0) {
@@ -206,19 +206,19 @@ public class PictureImageGridAdapter extends RecyclerView.Adapter<RecyclerView.V
                                             0, 0, 0);
                         } else {
                             contentHolder.tvDuration.setCompoundDrawablesRelativeWithIntrinsicBounds
-                                    (R.drawable.picture_icon_audio, 0, 0, 0);
+                                    (R.drawable.picture_icon_audio1, 0, 0, 0);
                         }
                     }
                 } else {
                     contentHolder.tvDuration.setCompoundDrawablesRelativeWithIntrinsicBounds
-                            (isHasVideo ? R.drawable.picture_icon_video : R.drawable.picture_icon_audio,
+                            (isHasVideo ? R.drawable.picture_icon_video1 : R.drawable.picture_icon_audio1,
                                     0, 0, 0);
                 }
             } else {
                 contentHolder.tvDuration.setVisibility(View.GONE);
             }
             if (config.chooseMode == PictureMimeType.ofAudio()) {
-                contentHolder.ivPicture.setImageResource(R.drawable.picture_audio_placeholder);
+                contentHolder.ivPicture.setImageResource(R.drawable.picture_audio_placeholder1);
             } else {
                 if (PictureSelectionConfig.imageEngine != null) {
                     PictureSelectionConfig.imageEngine.loadGridImage(context, path, contentHolder.ivPicture);
@@ -463,7 +463,7 @@ public class PictureImageGridAdapter extends RecyclerView.Adapter<RecyclerView.V
                     tvCheck.setBackgroundResource(PictureSelectionConfig.style.pictureCheckedStyle);
                 }
             } else {
-                Drawable checkedStyleDrawable = AttrsUtils.getTypeValueDrawable(itemView.getContext(), R.attr.picture_checked_style, R.drawable.picture_checkbox_selector);
+                Drawable checkedStyleDrawable = AttrsUtils.getTypeValueDrawable(itemView.getContext(), R.attr.picture_checked_style, R.drawable.picture_checkbox_selector1);
                 tvCheck.setBackground(checkedStyleDrawable);
             }
         }
@@ -643,7 +643,7 @@ public class PictureImageGridAdapter extends RecyclerView.Adapter<RecyclerView.V
             image.setNum(selectData.size());
             VoiceUtils.getInstance().play();
             AnimUtils.zoom(contentHolder.ivPicture, config.zoomAnim);
-            contentHolder.tvCheck.startAnimation(AnimationUtils.loadAnimation(context, R.anim.picture_anim_modal_in));
+            contentHolder.tvCheck.startAnimation(AnimationUtils.loadAnimation(context, R.anim.picture_anim_modal_in1));
         }
 
         boolean isRefreshAll = false;

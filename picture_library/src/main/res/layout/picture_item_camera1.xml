@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"
-        android:drawableTop="@drawable/picture_icon_camera"
+        android:drawableTop="@drawable/picture_icon_camera1"
         android:gravity="center"
         android:text="@string/picture_take_picture"
         android:textColor="@color/picture_color_white"

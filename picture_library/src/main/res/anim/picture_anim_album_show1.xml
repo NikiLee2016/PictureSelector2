@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:duration="350"
-    android:interpolator="@anim/picture_anim_overshoot_interpolator">
+    android:interpolator="@anim/picture_anim_overshoot_interpolator1">
     <scale
         android:fromXScale="1.0"
         android:fromYScale="0.0"

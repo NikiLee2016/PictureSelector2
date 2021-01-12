@@ -20,7 +20,7 @@
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
             android:scaleType="centerInside"
-            android:src="@drawable/picture_icon_back" />
+            android:src="@drawable/picture_icon_back1" />
 
         <TextView
             android:id="@+id/picture_title"
@@ -45,7 +45,7 @@
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
             android:scaleType="centerInside"
-            android:src="@drawable/picture_icon_delete" />
+            android:src="@drawable/picture_icon_delete1" />
     </RelativeLayout>
 
     <com.luck.picture.lib2.widget.PreviewViewPager

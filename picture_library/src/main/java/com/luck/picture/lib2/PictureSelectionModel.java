@@ -1316,7 +1316,7 @@ public class PictureSelectionModel {
                 activity.startActivityForResult(intent, requestCode);
             }
             PictureWindowAnimationStyle windowAnimationStyle = PictureSelectionConfig.windowAnimationStyle;
-            activity.overridePendingTransition(windowAnimationStyle.activityEnterAnimation, R.anim.picture_anim_fade_in);
+            activity.overridePendingTransition(windowAnimationStyle.activityEnterAnimation, R.anim.picture_anim_fade_in1);
         }
     }
 
@@ -1382,7 +1382,7 @@ public class PictureSelectionModel {
             }
             PictureWindowAnimationStyle windowAnimationStyle = PictureSelectionConfig.windowAnimationStyle;
             activity.overridePendingTransition(
-                    windowAnimationStyle.activityEnterAnimation, R.anim.picture_anim_fade_in);
+                    windowAnimationStyle.activityEnterAnimation, R.anim.picture_anim_fade_in1);
         }
     }
 
@@ -1417,7 +1417,7 @@ public class PictureSelectionModel {
                 activity.startActivityForResult(intent, requestCode);
             }
             PictureWindowAnimationStyle windowAnimationStyle = PictureSelectionConfig.windowAnimationStyle;
-            activity.overridePendingTransition(windowAnimationStyle.activityEnterAnimation, R.anim.picture_anim_fade_in);
+            activity.overridePendingTransition(windowAnimationStyle.activityEnterAnimation, R.anim.picture_anim_fade_in1);
         }
     }
 
