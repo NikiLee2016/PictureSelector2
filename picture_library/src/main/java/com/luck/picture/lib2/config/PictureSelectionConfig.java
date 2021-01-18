@@ -39,6 +39,7 @@ public final class PictureSelectionConfig implements Parcelable {
     public static PictureCropParameterStyle cropStyle;
     public static PictureWindowAnimationStyle windowAnimationStyle = PictureWindowAnimationStyle.ofDefaultWindowAnimationStyle();
     public String compressSavePath;
+    public String defaultDoneText;
     public String suffixType;
     public boolean focusAlpha;
     public String renameCompressFileName;
@@ -231,6 +232,7 @@ public final class PictureSelectionConfig implements Parcelable {
         circleStrokeWidth = 1;
         isDragFrame = true;
         compressSavePath = "";
+        defaultDoneText = "";
         suffixType = "";
         cameraFileName = "";
         specifiedFormat = "";
@@ -307,6 +309,7 @@ public final class PictureSelectionConfig implements Parcelable {
         dest.writeByte(this.camera ? (byte) 1 : (byte) 0);
         dest.writeByte(this.isSingleDirectReturn ? (byte) 1 : (byte) 0);
         dest.writeString(this.compressSavePath);
+        dest.writeString(this.defaultDoneText);
         dest.writeString(this.suffixType);
         dest.writeByte(this.focusAlpha ? (byte) 1 : (byte) 0);
         dest.writeString(this.renameCompressFileName);
@@ -411,6 +414,7 @@ public final class PictureSelectionConfig implements Parcelable {
         this.camera = in.readByte() != 0;
         this.isSingleDirectReturn = in.readByte() != 0;
         this.compressSavePath = in.readString();
+        this.defaultDoneText = in.readString();
         this.suffixType = in.readString();
         this.focusAlpha = in.readByte() != 0;
         this.renameCompressFileName = in.readString();

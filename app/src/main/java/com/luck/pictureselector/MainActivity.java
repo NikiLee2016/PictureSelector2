@@ -508,6 +508,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         //.cropCompressQuality(90)// 注：已废弃 改用cutOutQuality()
                         .cutOutQuality(90)// 裁剪输出质量 默认100
                         .minimumCompressSize(100)// 小于多少kb的图片不压缩
+//                        .defaultDoneText("跳过")
                         //.cropWH()// 裁剪宽高比，设置如果大于图片本身宽高则无效
                         //.cropImageWideHigh()// 裁剪宽高比，设置如果大于图片本身宽高则无效
                         //.rotateEnabled(false) // 裁剪是否可旋转图片

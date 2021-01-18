@@ -565,6 +565,11 @@ public class PictureSelectionModel {
         return this;
     }
 
+    public PictureSelectionModel defaultDoneText(String defaultDoneText) {
+        selectionConfig.defaultDoneText = defaultDoneText;
+        return this;
+    }
+
     /**
      * <p>
      * if Android SDK >=Q Please use the video/mp4 or video/jpeg ... PictureMimeType.MP4_Q or PictureMimeType.PNG_Q
