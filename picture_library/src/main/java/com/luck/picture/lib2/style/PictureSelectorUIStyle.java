@@ -594,7 +594,7 @@ public class PictureSelectorUIStyle {
 
         uiStyle.picture_top_leftBack = R.drawable.picture_icon_close1;
 
-        uiStyle.picture_top_titleRightTextColor = new int[]{Color.parseColor("#53575e"), Color.parseColor("#FFFFFF")};
+        uiStyle.picture_top_titleRightTextColor = new int[]{Color.parseColor("#96ffffff"), Color.parseColor("#FFFFFF")};
 
         uiStyle.picture_top_titleRightTextSize = 14;
         uiStyle.picture_top_titleTextSize = 18;

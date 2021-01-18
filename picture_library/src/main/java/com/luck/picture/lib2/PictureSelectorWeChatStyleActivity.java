@@ -237,7 +237,7 @@ public class PictureSelectorWeChatStyleActivity extends PictureSelectorActivity 
                 mTvPicturePreview.setText(getString(R.string.picture_preview_num, size));
             }
         } else {
-            mTvPictureRight.setEnabled(false);
+            mTvPictureRight.setEnabled(config.returnEmpty);
             mTvPictureRight.setSelected(false);
             mTvPicturePreview.setEnabled(false);
             mTvPicturePreview.setSelected(false);
